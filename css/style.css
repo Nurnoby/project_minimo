@@ -181,25 +181,34 @@ h1{
     right: 0;
 
 }
+.email{
+	border-bottom: 2px solid black;
+    margin: 0px 25px;}
 .form input{
-	border:none;
-	background: transparent;
-	border-bottom:2px solid black;
-	width:350px;
-	font-family: 'Playfair Display', serif;
+	border: none;
+    background: transparent;
+    width: 300px;
+    font-family: 'Playfair Display', serif;
     font-size: 14px;
     font-weight: 400;
-	color:#626262;
-	padding:10px 10px 10px 10px;
-	outline:none;
+    color: #626262;
+    padding: 10px 32px 10px 0px;
+    outline: none;
 
 }
+::placeholder {
+	padding: 0 0 0 10px;
+}  
+
+
+
+
 .form button{
 	border:none;
 	background: transparent;
 	position: absolute;
 	top: 11px;
-    right: 12px;
+    right: 23px;
     outline:none;
     cursor: pointer;
 }
